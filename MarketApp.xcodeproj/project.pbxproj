@@ -12,6 +12,9 @@
 		F33F32132B8650A5002B1D6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33F32122B8650A5002B1D6D /* Preview Assets.xcassets */; };
 		F33F321B2B865161002B1D6D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F321A2B865161002B1D6D /* Category.swift */; };
 		F33F321D2B8652BB002B1D6D /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F321C2B8652BB002B1D6D /* CategoryView.swift */; };
+		F33F32232B8679F6002B1D6D /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F32222B8679F6002B1D6D /* Market.swift */; };
+		F33F32262B867C97002B1D6D /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F32252B867C97002B1D6D /* MarketView.swift */; };
+		F33F32292B868526002B1D6D /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F32282B868526002B1D6D /* ProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		F33F32122B8650A5002B1D6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F33F321A2B865161002B1D6D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F33F321C2B8652BB002B1D6D /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		F33F32222B8679F6002B1D6D /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		F33F32252B867C97002B1D6D /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		F33F32282B868526002B1D6D /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				F33F320B2B8650A4002B1D6D /* MarketAppApp.swift */,
-				F33F321C2B8652BB002B1D6D /* CategoryView.swift */,
-				F33F32192B865145002B1D6D /* Model */,
+				F33F32272B86850D002B1D6D /* Product */,
+				F33F32202B8679CA002B1D6D /* Market */,
+				F33F321E2B8679A8002B1D6D /* Category */,
 				F33F320F2B8650A5002B1D6D /* Assets.xcassets */,
 				F33F32112B8650A5002B1D6D /* Preview Content */,
 			);
@@ -76,6 +83,56 @@
 				F33F321A2B865161002B1D6D /* Category.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F33F321E2B8679A8002B1D6D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F33F32192B865145002B1D6D /* Model */,
+				F33F321F2B8679BB002B1D6D /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F33F321F2B8679BB002B1D6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F33F321C2B8652BB002B1D6D /* CategoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F33F32202B8679CA002B1D6D /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				F33F32242B867C85002B1D6D /* View */,
+				F33F32212B8679D4002B1D6D /* Model */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		F33F32212B8679D4002B1D6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F33F32222B8679F6002B1D6D /* Market.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F33F32242B867C85002B1D6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F33F32252B867C97002B1D6D /* MarketView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F33F32272B86850D002B1D6D /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F33F32282B868526002B1D6D /* ProductView.swift */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F33F321B2B865161002B1D6D /* Category.swift in Sources */,
+				F33F32262B867C97002B1D6D /* MarketView.swift in Sources */,
 				F33F320C2B8650A4002B1D6D /* MarketAppApp.swift in Sources */,
 				F33F321D2B8652BB002B1D6D /* CategoryView.swift in Sources */,
+				F33F32292B868526002B1D6D /* ProductView.swift in Sources */,
+				F33F32232B8679F6002B1D6D /* Market.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
